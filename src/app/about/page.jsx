@@ -51,7 +51,7 @@ const AboutPage = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </span>
             {/* BIOGRAPHY SIGN SVG*/}
-            <div className="self-end">
+            {/* <div className="self-end">
               <svg
                 width="185"
                 height="77"
@@ -65,7 +65,7 @@ const AboutPage = () => {
                   strokeWidth="2"
                 />
               </svg>
-            </div>
+            </div> */}
             {/* BIOGRAPHY SCROLL SVG */}
             <motion.svg
               initial={{ opacity: 0.2, y: 0 }}
